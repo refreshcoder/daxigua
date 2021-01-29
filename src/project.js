@@ -6,7 +6,8 @@ let extraScore;
 let extraScoreStr = '';
 
 while (isNaN(extraScore)) {
-  extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+  //extraScoreStr = prompt('请输入分数加成数字', '1').trim();
+  extraScoreStr = 1;
   extraScore = parseInt(extraScoreStr);
 }
 
